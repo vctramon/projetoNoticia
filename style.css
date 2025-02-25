@@ -8,17 +8,51 @@ html,body{
     height: 100%;
 }
 
-.clear{
-    clear: both;
-}
 
 header{
-    padding: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1{
+    width: 400px;
+    /* background-color: red; */
+    font-size: 40px;
     color: white;
+}
+
+
+ul{     
+    /* background-color: purple; */
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    border-radius: 10px ;
+    /* background-color: red; */
+    /* border-style: solid red; */
+    font-size: 25px;
+    padding: 10px;
+    border: 2px solid blue;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+li:hover{
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px  blue;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
 }
 
 /* ATE QUI HEADER */
@@ -29,23 +63,41 @@ header h1{
     background-color: blue;
 }
 
-.introducao h1{
-    padding: 40px;
-    font-size: 40px;
+.intro h1{
+    margin: 10px 20px;
+    font-size: 60px;
+    letter-spacing: 25px;
     text-transform: uppercase;
     text-align: center;
+}
+
+.intro p{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
 }
 
 /* INTRODUCAO */
 
 .artistas{
     width: 100%;
-    height: 380px;
+    height: 400px;
     padding: 20px 2%;
-    border-radius: 10px;
-    margin-top: 20px;
+    border-radius: 20px;
+    margin-top: 40px;
     transition: 1s;
     background-color: green;
+}
+
+.biografia h2{
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    padding: 10px;
 }
 
 .artistas:hover{
