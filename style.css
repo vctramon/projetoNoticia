@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PE+Guides&display=swap');
+
+@font-face {
+    font-family: "Art" ;
+    src: url("./fonts/Tempting.otf");
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-size: cover;
+    background-image: url("./img/header.jpg");
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+header h1{
+    margin-top: 20px;
+    font-family: "Art";
+    width: 400px;
+    font-size: 40px;
+    color: #FCEFC9;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+ul{    
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+li{
+    border-radius: 10px ;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 5px 5px 3px #FCEFC9;
+}
+
+li a{
+    margin-right: 20px;
+    font-family: "Art";
+    color: #000000;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+li:hover{
+    color: red;
+    background-color: #FCEFC9;
+    border-radius: 10px;
+    box-shadow: 5px 3px 0px  #FCEFC9;
+}
+
+.flip-card a:hover{   
+    text-decoration: underline;
+}
+
+.center,
+.nscenter h2{
+    text-decoration:underline;
+}
+
+
+/* ATE AQUI HEADER */
+
+section{
+    width: 100%;
+    background-color: #FCEFC9;
+    padding: 10px 0px;
+    align-items: center;
+    /* text-align: center; */
+    /* background:linear-gradient(#DDBA80,#D3B37A,#E1BF8A,#B08854, #C49B69); */
+}
+
+
+.intro h1{
+    font-size: 60px;
+    letter-spacing: 25px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.intro p{
+    font-family: "Art";
+    text-align: center;
+    font-size: 30px;
+    /* padding: 10px; */
+}
+
+
+/******INTRO*********/
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.michelangelo{
+    width: 85vw;
+    height: 350px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    transition: 0.8s;
+    /* background-color: red; */
+}
+
+.michelangelo:hover{
+    color: white;
+    background-color: #4D5859;
+}
+
+.center{
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #000000; */
+}
+
+.michelangelo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto auto;
+}
+
+.biografia{
+    width: 700px;
+    height: 300px;
+    margin: auto auto;
+    /* background-color: white; */
+}
+
+.biografia h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+
+/*************** ATE AQU NP ************/
+
+
+.container-artistas{
+    width: 100vw;
+    height: 100%;
+    margin-top: 30px;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: green; */
+}
+
+
+
+.ns{
+    width: 50%;
+    height: 250px;
+    max-width: 650px;
+    border-radius: 20px;
+    margin:40px 20px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.8s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+    /* justify-content: space-around; */
+    /* background-color: blue; */
+}
+
+.nscenter{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+.leonardo:hover{
+    color: white;
+    background-color: #73634F;
+}
+
+.rafael:hover{
+    color: white;
+    background-color: #6E96A3;
+}
+
+.nscenter > img{
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+    border-radius: 20px;
+}
+
+.nsbiografia{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    text-align: center;
+    /* background-color: white; */
+}
+
+.nsbiografia h2{
+    font-size: 25px;
+    padding: 10px ;
+    margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    background: linear-gradient(#b19166,#CDA87C,#CFBA8F,#C0AE91,#B5A395);
+}
+
+footer img{
+    width: 250px;
+    height: 100%;
+    margin-bottom: 10px ;
+    /* background-color: red; */
+}
+
+footer p{
+    margin-top: 40px;
+}
+
+
+
+
+
+/***********ATÉ AQUI MENU PRINCIPAL**************/
+
+
+
+
+.paintadam{
+    background-color: #CCC2D1;
+}
+
+.adam{
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.adam img{
+    width: 900px;
+    height: 450px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: url("./projetoNoticia/img/paintBrush.png"), auto;
+    box-shadow: 10px 10px 8px gray;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: blue; */
+}
+
+main{
+    width: 100vw;
+    text-align: center;
+}
+
+.text h1{
+    margin: 40px;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-family: "Playwrite PE Guides", cursive;
+}
+
+.text{
+    width: 50vw;
+}
+
+.text p{
+    margin: 15px 15px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Playwrite PE Guides", cursive;
+    /* background-color: green; */
+}
+
+/*********** ATE AQUI ADAM  ***********/
+
+    
+/* *************FLIP CARD ABAIXO********* */
+    
+
+.painting{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #6E96A3;
+}
+
+.painting h1{
+    width: 700px;
+    font-size: 50px;
+    width: 70
+    0px;
+    font-family: "Art";
+    /* background-color: red ; */
+}
+
+.flip-card{
+    width: 550px;
+    height: 420px;
+    margin: 30px auto;
+    position: relative;
+    perspective: 1000px;
+    text-align: center;
+    cursor: url("./img/paintBrush.png"), auto;
+    /* background-color: red; */
+}
+
+.flip-card-back h2{
+    width: 430px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.stanczykback img{
+    height: 420px;
+}
+
+.kissback img{
+    width: 550px;
+    height: 410px;
+}
+
+.narcissusback img{
+    width: 550px;
+    height: 370px;
+}
+
+.flag{
+    width: 470px;
+    min-height: 100vh;
+    margin: 0px auto;
+    /* background-color: white; */
+} 
+
+.flag img{
+    width: 100%;
+    height: 670px;
+    margin: auto;
+    /* aspect-ratio: 10/10; */
+}
+
+.flagtext h2{
+    width: 400px;
+    position: relative;
+    top: -150px;
+    /* background-color: red; */
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(-180deg);
+}
+
+.flip-card .flip-card-back{
+    transform: rotateY(-180deg);
+}
+
+.flip-card-inner{
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
+    background-color: #000000;
+}
+
+.flip-card-back,
+.flip-card-front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+
+.flip-card-back a{
+    position: relative;
+    top: -250px;
+}
+
+.flip-card-image{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.backtext h2{
+    margin: auto auto;
+    width: 400px;
+}
+
+
+/* ***********ATE AQUI FLIP CARD*********** */
+
+.kisscontainer{
+    background: linear-gradient(#475A61,#3D555F,#405765,#4E7D83,#46757B);
+}
+
+.stanczyk-container{
+    background: linear-gradient(#C52D22,#B0211B,#811D1D,#5C1014,#590F10);
+}
+
+.narcissus-container{
+    background: linear-gradient(#AB9679,#98886E,#947C60,#675936,#574B23);
+}
+
+.socrates-container{
+    background: linear-gradient(#5F5949,#55503A,#545448,#46483A,#554A36);
+}
+
+.night-container{
+    background: linear-gradient(#FFEE91,#58B4E3,#2A61A4,#364E96,#102E52);
+}
+
+.flag-container{
+    background: linear-gradient(#EEC673,#8D6F43,#63542E,#5C4825,#49391C);
+}
+
+.container-painting{
+    width: 100%;
+    padding: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: red; */
+}
+
+.container-frame{
+    width: 100vw;
+    height: 650px;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+
+.container-painting img{
+    width: 1000px;
+    height: 600px;
+    margin-top: 80px;
+    cursor: url("/img/paintBrush.png"), auto;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.7);
+}
+
+.flag-container img{
+    width: 500px;
+    height: 600px;
+}
+
+.container-text-frame{
+    width: 750px;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: white; */
+}
+
+.container-text-frame h2{
+    font-size: 35px;
+    font-family: "Playwrite PE Guides", cursive;
+    margin-top: 10px;
+}
+
+.container-text-frame p{
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: "Playwrite PE Guides", cursive;
+}
+
+/* ************ATE AQUI PINTURA NOTICIAS********** */
+.blacksculpture{
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.blacksculpture h1,h3{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-family: "Art";
+    text-align: center;
+    /* background-color: red; */
+}
+
+.blacksculpture a{
+    margin: 20px;
+}
+
+.blacksculpture img{
+    width: 500px;
+    height: 450px;
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: 0.8s;       
+}
+
+.blacksculpture img:hover{
+    box-shadow: 0px 8px 8px rgb(255, 255, 255);
+    cursor: url("./img/colorHammer.png"), auto;
+}
+
+.text-sculpture{
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Art";
+    text-align: center;
+    /* background-color: red; */
+}
+
+.container-olympic{
+    background-color: black;
+}
+.container-olympic img{
+    width: 700px;
+    cursor: url("./img/colorHammer.png"), auto;
+}
+
+.blackhead img{
+    width: 400px;
+}
+
+.container-head img{
+    cursor: url("./img/colorHammer.png"), auto;
+    width: 500px;
+}
+
+.container-thinker img{
+    width: 700px;
+    cursor: url("./img/colorHammer.png"), auto;
+    background-color: #F5F5F7;
+}
+
+.container-julio img{
+    width: 500px;
+}
+

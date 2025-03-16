@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Você é Arte</title>
+</head>
+<body>
+
+    <header>
+
+        <a href="index.html"><h1>Você é Arte</h1></a>   
+
+    <nav>
+        <ul>
+            <li><a href="painting.html">Pinturas</a></li>
+            <li><a href="museums.html">Museus</a></li>
+            <li><a href="esculpture.html">Esculturas</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+    <div class="blacksculpture">
+
+        
+            <h1>Esculturas</h1>
+            <h3>Dê uma esculpida para aprender mais</h3>
+        
+
+        
+            <a class="blackhead" href="head.html"><img id="imgSculpture" src="sculpture/head.jpg"></a>
+    
+        
+            <a href="olympic.html"><img id="imgSculpture" src="sculpture/OlimpycGreek.jpg"></a>
+        
+
+        
+            <a href="julio.html"><img src="sculpture/julioC.jpg"></a>
+        
+
+        
+            <a href="self.html"><img src="sculpture/selfMade.jpg"></a>
+       
+        
+
+    </div>
+
+    <script>
+
+        const sound = new Audio('hammerAnvil.mp3');
+
+        document.querySelectorAll('imgSculpture').addEventlistener('click', () => {
+            sound.play();
+        });
+        
+    </script>
+
+<footer>
+    <img src="img/leftHand.png">
+        <p>Copyright @2025 Victor Ramon - All rights reserved </p>   
+    <img src="img/rightHand.png">
+
+</footer>
+    
+</body>
+</html>
